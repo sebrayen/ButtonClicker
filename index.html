@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="navbar">
+        <h1>Dojonary</h1>
+        <input type="search" value="Search" class="search">
+        <button onclick="turnOff(this)" class="blue">Login</button>
+    </div>
+
+    <div id="container">
+        <div id="main-content">
+
+            <div id="content-box"> 
+                <div id="content-left">
+                <h1>ninja</h1>
+                <h2>noun</h2>
+                <h3>Plural: <span style="font-style: italic">ninjas</span></h3>
+                <br /> 
+                <button onclick="alert('Ninja was liked')" class="yellow">13 Likes</button>
+                </div>
+
+                <div id="content-right">
+                <p>A practitioner skilled in the <br />
+                <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+
+            <div id="content-box"> 
+                <div id="content-left">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural: <span style="font-style: italic">ninjas</span></h3>
+                    <br />
+                    <button onclick="alert('Ninja was liked')" class="yellow">37 Likes</button>
+                </div>
+                <div id="content-right">
+                    <p>A <a href="#">programmer</a> who breaks <br />
+                        down problems with <a href="#">zen</a>-like <br />
+                        focus</p>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+        <div id="side-content">
+            <div id="side-box"> 
+                <p>Dojonary is <br />
+                    defined by <span class="strong">YOU</span></p>
+                    <br />
+                
+            <button onclick="hide(this)" class="green">Add Definition</button>
+            </div>   
+        </div>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
